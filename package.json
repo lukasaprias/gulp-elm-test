@@ -1,22 +1,12 @@
 {
-  "name": "gulp-elm-test",
-  "version": "1.0.3",
+  "name": "@lukasaprias/gulp-elm-test",
+  "version": "1.0.0",
   "description": "Gulp plugin for running elm-test",
   "main": "index.js",
-  "scripts": {
-    "test": "cd examples && mocha ./test/main.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abadi199/gulp-elm-test.git"
+    "url": "https://github.com/lukasaprias/gulp-elm-test.git"
   },
-  "keywords": ["gulp", "elm", "elm-test"],
-  "author": "Abadi Kurniawan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abadi199/gulp-elm-test/issues"
-  },
-  "homepage": "https://github.com/abadi199/gulp-elm-test#readme",
   "dependencies": {
     "cross-spawn": "^4.0.0",
     "gulp-util": "^3.0.7",
@@ -25,9 +15,9 @@
   },
   "devDependencies": {
     "mocha": "^2.4.5",
-    "elm-test": "^0.17.3"
+    "elm-test": "^0.19.1-revision12"
   },
   "peerDependencies": {
-    "elm-test": ">= 0.17.3 < 1.0"
+    "elm-test": ">= 0.19.1-revision12 < 1.0"
   }
 }
